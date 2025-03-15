@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Navbbar() {
+function CompletedProjects() {
   return (
     <div>
       
@@ -8,4 +8,4 @@ function Navbbar() {
   )
 }
 
-export default Navbbar
+export default CompletedProjects
