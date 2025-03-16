@@ -6,6 +6,7 @@ import BookServices from './pages/BookServices'
 import Terms from './pages/Terms';
 import Policy from './pages/Policy';
 import Products from './pages/Products';
+import ThankYou from './pages/ThankYou';
 export function App() {
 
   return (
@@ -19,6 +20,7 @@ export function App() {
         <Route path="/products" element={<Products />}/>
         <Route path="/developers" element={<About />}/>
         <Route path="/terms" element={<Terms />}/>
+        <Route path="/ThankYou" element={<ThankYou />}/>
         <Route path="/privacy-policies" element={<Policy />}/>
 
         {/* ================================ADMIN PAGES ========================================  */}
