@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -22,14 +23,17 @@ function Footer() {
               </a>
             </li> */}
             <li className="nav-item">
-              <a href="/terms" className="nav-link px-2 text-muted">
-                Terms & conditions
-              </a>
+              {/* <a href="" className="nav-link px-2 text-muted">
+                T
+              </a> */}
+              <Link to='/terms' className="nav-link px-2 text-muted">Terms & conditions</Link>
             </li>
             <li className="nav-item">
-              <a href="/privacy-policies" className="nav-link px-2 text-muted">
+              {/* <a href="/privacy-policies" className="nav-link px-2 text-muted">
                 Privacy Policy
-              </a>
+              </a> */}
+              <Link to='/privacy-policies' className="nav-link px-2 text-muted">Privacy Policy</Link>
+
             </li>
           </ul>
           <p className="text-center text-muted">© 2025 AsyncMinds</p>
