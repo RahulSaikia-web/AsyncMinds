@@ -112,7 +112,7 @@ function BookService() {
 
                     {/* Hidden Inputs for Extra Data (Optional) */}
                     <input type="hidden" name="_captcha" value="false" />
-                    <input type="hidden" name="_next" value="http://localhost:5173/ThankYou" />
+                    <input type="hidden" name="_next" value="https://asyncminds.vercel.app/ThankYou" />
 
                   </form>
                 </div>
