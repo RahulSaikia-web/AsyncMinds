@@ -30,10 +30,13 @@ function BookService() {
             <div className="col-lg-6">
               <div className="card shadow-sm border-0">
                 <div className="card-body p-4">
-                  <form 
-                    action="https://formsubmit.co/asyncminds.co@gmail.com" // Replace with your FormSubmit URL
+                  <form
+                    action="https://api.web3forms.com/submit"
                     method="POST"
                   >
+                    {/* Web3Forms Access Key */}
+                    <input type="hidden" name="access_key" value="db1bc64c-7640-4f80-af49-8aa5a0165b9c" />
+
                     {/* Name */}
                     <div className="mb-3">
                       <label htmlFor="name" className="form-label fw-bold">
@@ -110,10 +113,9 @@ function BookService() {
                       </button>
                     </div>
 
-                    {/* Hidden Inputs for Extra Data (Optional) */}
+                    {/* Optional Hidden Inputs */}
                     <input type="hidden" name="_captcha" value="false" />
-                    <input type="hidden" name="_next" value="https://asyncminds.vercel.app/ThankYou" />
-
+                    <input type="hidden" name="redirect" value="https://asyncminds.vercel.app/ThankYou" />
                   </form>
                 </div>
               </div>
