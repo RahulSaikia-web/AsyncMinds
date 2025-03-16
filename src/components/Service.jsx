@@ -24,9 +24,6 @@ function Service() {
               We create websites tailored to your business needs with a focus on
               performance and design.
             </p>
-            <a className="btn btn-secondary" href="#">
-              View Details »
-            </a>
           </div>
 
           {/* Column 2 */}
@@ -43,9 +40,6 @@ function Service() {
               Our team develops feature-rich mobile apps for iOS and Android,
               ensuring a seamless user experience.
             </p>
-            <a className="btn btn-secondary" href="#">
-              View Details »
-            </a>
           </div>
 
           {/* Column 3 */}
@@ -60,11 +54,7 @@ function Service() {
             <h2>SEO & Digital Marketing</h2>
             <p>
               We help you rank higher on search engines and drive more traffic
-              to your business.
-            </p>
-            <a className="btn btn-secondary" href="#">
-              View Details »
-            </a>
+              to your business.</p>
           </div>
         </div>
       </div>
