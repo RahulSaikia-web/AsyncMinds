@@ -12,10 +12,9 @@ function Footer() {
                 Home
               </a>
             </li>
-            <li className="nav-item">
-              <a href="/bookservices" className="nav-link px-2 text-muted">
-                Book a Service
-              </a>
+            <li
+              <Link to='/bookservices' className="nav-link px-2 text-muted">Book a Service</Link>
+            </li>
             </li>
             {/* <li className="nav-item">
               <a href="/developers" className="nav-link px-2 text-muted">
