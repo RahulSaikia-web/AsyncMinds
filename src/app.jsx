@@ -11,7 +11,7 @@ export function App() {
       <Routes>
         {/* ===============================Pages========================================  */}
         <Route path="/" element={<Home />}/>
-        <Route path="/services" element={<BookServices />}/>
+        <Route path="/bookservices" element={<BookServices />}/>
         <Route path="/about" element={<About />}/>
 
         {/* ================================ADMIN PAGES ========================================  */}

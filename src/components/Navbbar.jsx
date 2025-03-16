@@ -26,7 +26,7 @@ function Navbbar() {
                 <Link to="/">Home</Link>
               </li>
               <li className="nav-item">
-                <Link to="/services">Services</Link>
+                <Link to="/bookservices">Book Services</Link>
               </li>
               <li className="nav-item">
                 <Link to="/about">About</Link>

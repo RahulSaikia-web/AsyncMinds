@@ -1,13 +1,13 @@
 import React from 'react'
 import Navbbar from '../components/Navbbar'
 
-function Services() {
+function BookServices() {
   return (
     <div>
       <Navbbar />
-      <h1>Services</h1>
+      <h1>Book Your Service Services</h1>
     </div>
   )
 }
 
-export default Services
+export default BookServices
