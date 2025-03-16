@@ -35,7 +35,11 @@ function BookService() {
                     method="POST"
                   >
                     {/* Web3Forms Access Key */}
-                    <input type="hidden" name="access_key" value="db1bc64c-7640-4f80-af49-8aa5a0165b9c" />
+                    <input
+                      type="hidden"
+                      name="access_key"
+                      value="db1bc64c-7640-4f80-af49-8aa5a0165b9c"
+                    />
 
                     {/* Name */}
                     <div className="mb-3">
@@ -115,7 +119,7 @@ function BookService() {
 
                     {/* Optional Hidden Inputs */}
                     <input type="hidden" name="_captcha" value="false" />
-                    <input type="hidden" name="redirect" value="https://asyncminds.vercel.app/ThankYou" />
+                    {/* Removed the _next input to use the default Web3Forms thank you page */}
                   </form>
                 </div>
               </div>
