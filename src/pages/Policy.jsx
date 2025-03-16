@@ -7,7 +7,7 @@ function Policy() {
     <Navbbar />
     <div className="container p-6 bg-gray-100 rounded-lg shadow-lg max-w-3xl mx-auto mt-10">
       <h1 className="text-3xl font-bold mb-6 text-gray-800">Privacy Policy</h1>
-      <p className="text-gray-600 mb-4"><strong>Last Updated:</strong> [Insert Date]</p>
+      <p className="text-gray-600 mb-4"><strong>Last Updated:</strong> 3/16/2025</p>
 
       <h2 className="text-2xl font-semibold mt-6 text-gray-700">1. Information We Collect:</h2>
       <ul className="list-disc ml-6 text-gray-600">
@@ -43,7 +43,7 @@ function Policy() {
       <p className="text-gray-600">We may update this policy from time to time.</p>
 
       <h2 className="text-2xl font-semibold mt-6 text-gray-700">7. Contact Us:</h2>
-      <p className="text-gray-600">For questions, contact us at <strong>[Your Email Address]</strong></p>
+      <p className="text-gray-600">For questions, contact us at <strong>asyncminds.co@gmail.com</strong></p>
     </div>
     </>
   )
