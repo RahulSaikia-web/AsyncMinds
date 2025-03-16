@@ -7,7 +7,7 @@ function Terms() {
     <Navbbar />
     <div className="container p-6 bg-gray-100 rounded-lg shadow-lg max-w-3xl mx-auto mt-10">
       <h1 className="text-3xl font-bold mb-6 text-gray-800">Terms and Conditions</h1>
-      <p className="text-gray-600 mb-4"><strong>Last Updated:</strong> [Insert Date]</p>
+      <p className="text-gray-600 mb-4"><strong>Last Updated:</strong> 3/16/2025</p>
 
       <h2 className="text-2xl font-semibold mt-6 text-gray-700">1. Acceptance of Terms:</h2>
       <p className="text-gray-600">Using our services means you agree to comply with these terms.</p>
@@ -46,7 +46,7 @@ function Terms() {
       <p className="text-gray-600">We may update these terms periodically. Continued use means acceptance of updated terms.</p>
 
       <h2 className="text-2xl font-semibold mt-6 text-gray-700">10. Contact Us:</h2>
-      <p className="text-gray-600">For questions, contact us at <strong>[Your Email Address]</strong></p>
+      <p className="text-gray-600">For questions, contact us at <strong>asyncminds.co@gmail.com</strong></p>
     </div>
     </>
   )
