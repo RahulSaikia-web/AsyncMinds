@@ -16,11 +16,11 @@ function Footer() {
                 Book a Service
               </a>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a href="/developers" className="nav-link px-2 text-muted">
                 Developers
               </a>
-            </li>
+            </li> */}
             <li className="nav-item">
               <a href="/terms" className="nav-link px-2 text-muted">
                 Terms & conditions
