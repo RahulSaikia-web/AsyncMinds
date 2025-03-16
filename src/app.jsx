@@ -1,9 +1,8 @@
 import './app.css'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './pages/Home';
-import Services from './pages/Services';
 import About from './pages/About';
-
+import BookServices from './pages/BookServices'
 export function App() {
 
   return (
@@ -12,7 +11,7 @@ export function App() {
       <Routes>
         {/* ===============================Pages========================================  */}
         <Route path="/" element={<Home />}/>
-        <Route path="/services" element={<Services />}/>
+        <Route path="/services" element={<BookServices />}/>
         <Route path="/about" element={<About />}/>
 
         {/* ================================ADMIN PAGES ========================================  */}
